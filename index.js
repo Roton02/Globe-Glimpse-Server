@@ -2,8 +2,8 @@ const express = require('express')
 const app = express()
 const cors = require('cors');
 const { MongoClient, ServerApiVersion } = require('mongodb');
-const port = process.env.PORT || 5000;
 require('dotenv').config()
+const port = process.env.PORT || 5000;
 
 app.use(cors())
 app.use(express.json())
@@ -29,6 +29,7 @@ async function run() {
   try {
     // Connect the client to the server	(optional starting in v4.7)
     await client.connect();
+
     const dataBasecollection = client.db('databaseCollection').collection('change')
 
 
