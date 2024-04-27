@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 const cors = require('cors');
+const countries = require('./countries.json');
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 require('dotenv').config()
 const port = process.env.PORT || 5000;
@@ -30,6 +31,15 @@ async function run() {
     // Connect the client to the server	(optional starting in v4.7)
     await client.connect();
     const dataBasecollection = client.db('databaseCollection').collection('TravelSpot')
+    const countriesDB =client.db('countriesDb').collection('country');
+
+      // const result = await countriesDB.insertMany(countries);
+      
+    app.get('/contries', async(req,res)=>{
+      const cursor = await countriesDB.find().toArray()
+      res.send(cursor);
+    })
+
 
     app.get('/addTousristSpot',async(req, res)=>{
       const cursor =await dataBasecollection.find().toArray();
