@@ -1,32 +1,33 @@
 [
     {
       "name": "Bangladesh",
-      "image": "https://example.com/bangladesh_image.jpg",
-      "description": "Bangladesh, located in South Asia, is known for its lush greenery, vibrant culture, and the world's largest river delta. With a rich history and diverse population, Bangladesh offers visitors a blend of ancient landmarks, bustling cities, and scenic landscapes."
+      "image": " https://i.ibb.co/CtGZDNj/ba.jpg",
+      "description": "Known for its lush greenery, vibrant culture, and the world's largest river delta."
     },
+   
     {
       "name": "Thailand",
-      "image": "https://example.com/thailand_image.jpg",
-      "description": "Thailand, in Southeast Asia, is renowned for its stunning beaches, ornate temples, and delicious cuisine. From the bustling streets of Bangkok to the tranquil islands of Phuket and Koh Samui, Thailand offers a unique blend of traditional charm and modern allure."
+      "image": "https://i.ibb.co/F3TqJY1/indo.jpg",
+      "description": " Renowned for stunning beaches, ornate temples, and unique cuisine, blending traditional charm with modern allure."
     },
     {
       "name": "Indonesia",
-      "image": "https://example.com/indonesia_image.jpg",
-      "description": "Indonesia, the largest archipelago in the world, boasts a diverse landscape of tropical forests, volcanic mountains, and pristine beaches. With its rich cultural heritage and vibrant traditions, Indonesia offers visitors a fascinating journey through history and natural beauty."
+      "image": "https://i.ibb.co/mzG61zp/malesa.jpg",
+      "description": "Boasts a diverse landscape of tropical forests, volcanic mountains, and pristine beaches, offering a fascinating journey through history and natural beauty."
     },
     {
       "name": "Malaysia",
-      "image": "https://example.com/malaysia_image.jpg",
-      "description": "Malaysia, located in Southeast Asia, is a melting pot of cultures, featuring Malay, Chinese, Indian, and indigenous influences. From the iconic Petronas Twin Towers in Kuala Lumpur to the lush rainforests of Borneo, Malaysia offers a captivating blend of modernity and nature."
+      "image": "https://i.ibb.co/6BT23KB/o2.jpg ",
+      "description": " A melting pot of cultures, featuring Malay, Chinese, Indian, and indigenous influences, offering a captivating blend of modernity and nature."
     },
     {
       "name": "Vietnam",
-      "image": "https://example.com/vietnam_image.jpg",
-      "description": "Vietnam, nestled along the eastern edge of the Indochinese Peninsula, is known for its breathtaking landscapes, rich history, and delectable cuisine. From the bustling streets of Hanoi to the serene beauty of Ha Long Bay, Vietnam offers travelers a captivating experience."
+      "image": "https://i.ibb.co/28GzxtS/o1.jpg",
+      "description": " Known for its rich history, breathtaking landscapes, and delicious cuisine."
     },
     {
       "name": "Cambodia",
-      "image": "https://example.com/cambodia_image.jpg",
-      "description": "Cambodia, home to the magnificent temples of Angkor Wat, offers visitors a glimpse into its ancient past and vibrant culture. With its lush countryside, bustling markets, and warm hospitality, Cambodia is a destination filled with enchanting experiences."
+      "image": "https://i.ibb.co/JvDYsLw/cambonia.jpg",
+      "description": " Home to the magnificent temples of Angkor Wat, with a lush countryside, bustling markets, and warm hospitality."
     }
   ]

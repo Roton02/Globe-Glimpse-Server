@@ -39,7 +39,13 @@ async function run() {
       const cursor = await countriesDB.find().toArray()
       res.send(cursor);
     })
-
+    app.get('/ReleteCountryData/:countryName', async(req,res)=>{
+      const country = req.params.countryName;
+      console.log(country);
+      const query = {countryName:country}
+      const cursor = await dataBasecollection.find(query).toArray()
+      res.send(cursor);
+    })
 
     app.get('/addTousristSpot',async(req, res)=>{
       const cursor =await dataBasecollection.find().toArray();
