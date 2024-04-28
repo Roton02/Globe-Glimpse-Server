@@ -31,17 +31,18 @@ async function run() {
     // Connect the client to the server	(optional starting in v4.7)
     await client.connect();
     const dataBasecollection = client.db('databaseCollection').collection('TravelSpot')
-    const countriesDB =client.db('countriesDb').collection('country');
+    const CountryDataBase = client.db('databaseCollection').collection('country')
+    // const countriesDB =client.db('countriesDb').collection('country');
 
-      // const result = await countriesDB.insertMany(countries);
+      // const result = await CountryDataBase.insertMany(countries);
       
     app.get('/contries', async(req,res)=>{
-      const cursor = await countriesDB.find().toArray()
+      const cursor = await CountryDataBase.find().toArray()
       res.send(cursor);
     })
     app.get('/ReleteCountryData/:countryName', async(req,res)=>{
       const country = req.params.countryName;
-      console.log(country);
+      // console.log(country);
       const query = {countryName:country}
       const cursor = await dataBasecollection.find(query).toArray()
       res.send(cursor);
